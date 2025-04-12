@@ -1,0 +1,373 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+   
+    max-width: 100%;
+    height: 100%;
+    background-image: url("./assets/images/Image.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+/* Timer styling */
+#timer {
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 275px;
+    font-size: 75px;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+/* Countdown time text styles */
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 250px;
+    flex-direction: row;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+
+}
+.time-unit {
+    text-align: center;
+    color: #ffff00;
+}
+
+.time-unit div {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.time-unit div:last-child {
+    font-size: 22px;
+    color: #ffff00;
+}
+
+/* Text sections below the countdown */
+#fistone{
+    margin-left: 60px;
+}
+#scndlne {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#thirdline,#fourtnline,#fifthline,#sixthline,#seventhline,#tenthline,#ninthline{
+    margin-left: 60px;
+}
+#eightline {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#ninthline {
+    margin-top: 10px;
+}
+
+#eleventhline {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+}
+
+/* Zombie game heading */
+#zombiegmghd {
+    width:500px;
+    height:80px;
+   display: flex;
+   flex-direction: row;
+   gap:2px;
+   background-color: #283341;
+   margin-left:5px;
+   padding:15px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+#zombiegmghdpara{
+   width:100px;
+   height:50px;
+   background-color:  #ffff4d;
+   padding: 18px;
+   color: #283341;
+   font-size: 20px;
+   font-weight:bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+
+}
+#zombiegmghd,#zmbgm{
+    padding: 15px;
+    color: #f2f2f2;
+    
+   
+}
+#zmbgm{ 
+    
+    font-size: 20px;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+#gamename{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120px;
+}
+#releasedate{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:85px;
+}
+#paratext{
+    color:white;
+    margin-left:150px;
+}
+#cnfrmtxt{
+    
+    width:110px;
+    height:25px;
+    padding-top: 5px;
+    padding-left: 2px;
+    background-color: #B12B2B;
+    margin-left:450px;
+    margin-top: -22px;
+    color: white;
+}
+#saveandshare{
+    margin-left:588px;
+   margin-top: -22px;
+}
+#googlecldr{
+    margin-left:565px;
+    margin-top: -22px;
+}
+#shareicon{
+    margin-left: 620px;
+    margin-top: -22px;
+}
+.white-lines {
+    color: white;
+}
+.white-linesend{
+    color: white;
+    position: relative;
+    margin-left: 680px;
+    top: -22px;
+}
+/* Media Queries for responsiveness */
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    /* Timer styles for small screens */
+    #timer {
+        font-size: 50px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    /* Container background */
+    .container {
+    position: relative;
+    z-index: 2;
+    padding-bottom: .5em;
+    overflow: hidden;
+     
+    
+   }
+    #gamename{
+  
+    font-size: 50px;
+}
+    .white-lines {
+        display: none;
+    }
+    .white-linesend{
+      display:none
+    }
+#releasedate{
+    
+    font-size:40px;
+}
+#paratext{
+    color:white;
+    margin-left:0px;
+}
+#cnfrmtxt{
+    
+    width:110px;
+    height:25px;
+    padding-top: 5px;
+    padding-left: 2px;
+    background-color: #B12B2B;
+    margin-left:150px;
+    margin-top: 0px;
+    color: white;
+}
+#saveandshare{
+    margin-left:265px;
+   margin-top: -22px;
+}
+#googlecldr{
+    margin-left:295px;
+    margin-top: -22px;
+}
+#shareicon{
+    margin-left: 325px;
+    margin-top: -22px;
+}
+/* #zombiegmghd{
+  
+   display: flex;
+   flex-direction:  column;
+
+} */
+    /* Heading section */
+    .headingsection {
+        margin-left: -10px;
+        font-size: 16px;
+    }
+
+    /* Countdown time text for smaller screens */
+    .time-unit div {
+        font-size: 50px;
+    }
+
+    /* Make the countdown container display horizontally */
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Zombie game heading adjustment */
+     #zombiegmghd {
+        width:320px;
+        padding-left: 10px;
+        text-align: center;
+        margin-left: 30px;
+    } 
+
+    /* Launch button for small devices */
+    #launchButton {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+}
+
+/* For tablets (screens between 768px and 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    /* Timer styles */
+    #timer {
+        font-size: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+      #gamename{
+  
+    font-size: 50px;
+}
+#releasedate{
+    
+    font-size:40px;
+}
+ .white-lines {
+        display: none;
+    }
+    .white-linesend{
+      display:none
+    }
+#paratext{
+    color:white;
+    margin-left:0px;
+}
+#cnfrmtxt{
+    
+    width:110px;
+    height:25px;
+    padding-top: 5px;
+    padding-left: 2px;
+    background-color: #B12B2B;
+    margin-left:320px;
+    margin-top: -20px;
+    color: white;
+}
+#saveandshare{
+    margin-left:435px;
+   margin-top: -22px;
+}
+#googlecldr{
+    margin-left:465px;
+    margin-top: -22px;
+}
+#shareicon{
+    margin-left: 489px;
+    margin-top: -22px;
+}
+
+
+    /* Countdown time text */
+    .time-unit div {
+        font-size: 45px;
+    }
+
+    /* Zombie game heading */
+    #zombiegmghd {
+        width: 80%;
+        padding-left: 5px;
+        margin-left: 5px;
+        
+    }
+
+    /* Adjusting layout for better readability */
+    .headingsection {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    #fistone{
+    margin-left: 10px;
+}
+#scndlne {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+#thirdline,#fourtnline,#fifthline,#sixthline,#seventhline,#tenthline,#ninthline{
+    margin-left: 20px;
+    font-size: 16px;
+}
+#eightline {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#ninthline {
+    margin-top: 10px;
+}
+
+#eleventhline {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+}
