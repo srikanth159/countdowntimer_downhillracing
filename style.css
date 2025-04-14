@@ -20,7 +20,11 @@ body {
     overflow-x: hidden;
 }
 
-
+.headingsection{
+    font-size: 19px;
+     font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* Timer styling */
 #timer {
     padding-top: 250px;
@@ -49,7 +53,7 @@ body {
 }
 .time-unit {
     text-align: center;
-    color: #ffff00;
+    color: #e1e7e0e8;
 }
 
 .time-unit div {
@@ -59,7 +63,7 @@ body {
 
 .time-unit div:last-child {
     font-size: 22px;
-    color: #ffff00;
+    color:  #ffffff;
 }
 
 /* Text sections below the countdown */
@@ -118,6 +122,9 @@ body {
     
    
 }
+#ganmelik{
+    color: #f2f2f2;
+}
 #zmbgm{ 
     
     font-size: 20px;
@@ -125,19 +132,21 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 #gamename{
-    color: white;
+    color: #4d0000;
     text-align: center;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #releasedate{
-    color: white;
+    color: #e1e7e0e8;
     text-align: center;
     font-weight: bold;
-    font-size:85px;
+    font-size:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #paratext{
-    color:white;
+    color:#ffffff;
     margin-left:150px;
 }
 #cnfrmtxt{
@@ -245,6 +254,8 @@ body {
     .headingsection {
         margin-left: -10px;
         font-size: 16px;
+       font-size: 19px;
+       font-family: 'sans-serif';
     }
 
     /* Countdown time text for smaller screens */
@@ -342,8 +353,10 @@ body {
 
     /* Adjusting layout for better readability */
     .headingsection {
-        font-size: 18px;
+        font-size: 19px;
         margin-left: 5px;
+        font-family: 'sans-serif';
+
     }
     #fistone{
     margin-left: 10px;
@@ -351,14 +364,23 @@ body {
 #scndlne {
     margin-bottom: 15px;
     margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 #thirdline,#fourtnline,#fifthline,#sixthline,#seventhline,#tenthline,#ninthline{
     margin-left: 20px;
-    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
 }
 #eightline {
     margin-left: 20px;
     margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 #ninthline {
@@ -369,5 +391,8 @@ body {
     margin-top: 15px;
     margin-bottom: 25px;
     margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 }

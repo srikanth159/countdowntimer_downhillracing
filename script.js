@@ -5,7 +5,7 @@ const hoursElement = document.getElementById('hours-number');
 const minutesElement = document.getElementById('minutes-number');
 const secondsElement = document.getElementById('seconds-number');
 
-var countDownDate = new Date("Apr 28, 2025 15:37:28").getTime();
+var countDownDate = new Date("Apr 28, 2025 10:00:28").getTime();
 
 // Update the count down every 1 second
 const x = setInterval(function() {
