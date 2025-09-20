@@ -4,7 +4,7 @@ const hoursElement = document.getElementById('hours-number');
 const minutesElement = document.getElementById('minutes-number');
 const secondsElement = document.getElementById('seconds-number');
 
-var countDownDate = new Date("sep 20, 2025 16:09:00").getTime();
+var countDownDate = new Date("Apr 28, 2025 16:30:00").getTime();
 
 const x = setInterval(function () {
   const now = new Date().getTime();
